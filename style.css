@@ -13,3 +13,14 @@ html{
     width: fit-content;
     margin: auto;
 }
+
+.score-wrapper{
+    display: none;
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.score-wrapper.active{
+    display: block;
+}

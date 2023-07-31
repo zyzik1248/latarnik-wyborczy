@@ -1,5 +1,7 @@
 const form = document.querySelector(".question-wrapper")
 const questionsBox = [...document.querySelectorAll(".question-box")]
+const scoreWrapper = document.querySelector(".score-wrapper")
+const scores = [...document.querySelectorAll(".score")]
 
 const parties = [
     {
@@ -29,7 +31,9 @@ form.addEventListener("submit", (e)=>{
         })
     }
 
-    const maxPoints = Math.max(...parties.map(party => party.points))
-    const wonParty = parties.find(party => party.points === maxPoints)
-    alert(wonParty.name)
+    parties.map((party, index)=>{
+        scores[index].innerHTML = `${party.name} ${(party.points/questionsBox.length*100).toFixed(2)}%`
+    })
+
+    scoreWrapper.classList.add("active")
 })
