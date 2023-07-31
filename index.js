@@ -31,6 +31,10 @@ form.addEventListener("submit", (e)=>{
         })
     }
 
+    parties.sort((partyA, partyB)=>{
+        return partyB.points - partyA.points
+    })
+
     parties.map((party, index)=>{
         scores[index].innerHTML = `${party.name} ${(party.points/questionsBox.length*100).toFixed(2)}%`
     })
