@@ -1,50 +1,902 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Latarnik wyborczy</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <main>
-        <form class="question-wrapper">
+      <form class="form-wrapper">
+        <div class="question-container">
+          <div class="question-wrapper">
             <div class="question-box">
-                <h3>Czy zgadzasz się z postulatem ograniczenia sprzedaży alkoholu na stacjach benzynowych?</h3>
-                <div class="answer-wrapper">
-                    <input type="radio" name="q1" id="q1-a1"/>
-                    <label for="q1-a1">tak</label>
-                    <input type="radio" name="q1" id="q1-a2"/>
-                    <label for="q1-a2">nie</label>
-                </div>
+              <h3>Podwyższenie i zróżnicowanie wynagrodzeń nauczycieli.</h3>
+              <p>
+                Potrzeba podwyższenia wynagrodzeń nauczycieli i ich dalsza,
+                automatyczna waloryzacja o inflację wynika ze spadku
+                atrakcyjności nauczycielskiej profesji i powstania zjawiska
+                negatywnej selekcji do zawodu. Zarazem dalsze znaczące podwyżki
+                wynagrodzeń powinny iść w parze z reformą polegającą na lepszym
+                wynagradzaniu lepszych nauczycieli. Podwyżki nie powinny więc
+                obejmować wszystkich nauczycieli w równym stopniu, lecz bazować
+                na ocenach ich pracy, co wymaga wcześniejszego przygotowania
+                sprawiedliwego systemu oceny nauczycieli. Celem zróżnicowania
+                jest zatrzymanie w szkołach publicznych najbardziej
+                utalentowanych nauczycieli. O potrzebie jednoczesnego
+                podniesienia i zróżnicowania pensji nauczyciela mówił w
+                podcaście
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=hsitiwOL1w8&list=PLcCngfT_WRdZBJjM7F2nhSxLwm8jn3aXu&index=16"
+                  >“Szanowne państwo” Jerzy Lackowski.</a
+                >
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q1" id="q1-a1" />
+                <label for="q1-a1">tak</label>
+                <input class="input-false" type="radio" name="q1" id="q1-a2" />
+                <label for="q1-a2">nie</label>
+              </div>
             </div>
-            <div class="question-box">
-                <h3>Czy zgadzasz się z postulatem prywatyzacji służby zdrowia?</h3>
-                <div class="answer-wrapper">
-                    <input type="radio" name="q2" id="q2-a1"/>
-                    <label for="q2-a1">tak</label>
-                    <input type="radio" name="q2" id="q2-a2"/>
-                    <label for="q2-a2">nie</label>
-                </div>
+            <div class="question-box next">
+              <h3>Wprowadzenie obowiązkowych standardów urbanistycznych.</h3>
+              <p>
+                Polski system planowania przestrzennego potrzebuje wzmocnienia.
+                Pozycja gminy jest zbyt słaba, by przeciwstawiać się lobby i
+                grupom interesu takim jak deweloperzy. W efekcie bez odgórnego
+                narzucenia norm dobrego planowania gminy wciąż będą mogły
+                stosować ułomne rozwiązania w swojej polityce przestrzennej, a
+                jednocześnie twierdzić, że wprowadzają ład. Postulujemy
+                wprowadzenie obowiązkowych standardów urbanistycznych, które
+                uniemożliwiłyby najbardziej rażące nadużycia. Standardy
+                urbanistyczne powinny definiować ramowo zarówno kwestie dostępu
+                do usług publicznych, takie jak maksymalne odległości do szkół
+                czy dostęp mieszkańców do transportu publicznego, jak i
+                maksymalne parametry dla samych budynków, np. intensywność
+                zabudowy. System ten nie zastąpi planowania ani architektury,
+                ale pozwoli gminom uwolnić się od zewnętrznej presji, a tym
+                samym uniknąć najbardziej kuriozalnych i nieudanych realizacji.
+                Postulat ten rozwijał na naszym portalu
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/2022/06/27/bez-standardow-urbanistycznych-samorzady-beda-mogly-tylko-udawac-ze-wprowadzaja-lad-przestrzenny/"
+                  >Leszek Wiśniewski.</a
+                >
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q2" id="q2-a1" />
+                <label for="q2-a1">tak</label>
+                <input class="input-false" type="radio" name="q2" id="q2-a2" />
+                <label for="q2-a2">nie</label>
+              </div>
             </div>
-            <div class="question-box">
-                <h3>Czy popierasz postulat waloryzacji 800+?</h3>
-                <div class="answer-wrapper">
-                    <input type="radio" name="q3" id="q3-a1"/>
-                    <label for="q3-a1">tak</label>
-                    <input type="radio" name="q3" id="q3-a2"/>
-                    <label for="q3-a2">nie</label>
-                </div>
+            <div class="question-box next">
+              <h3>
+                Podniesienie wynagrodzeń urzędników ale zmniejszenie
+                bezpieczeństwa zatrudnienia.
+              </h3>
+              <p>
+                Administracja publiczna ma problem ze znalezieniem odpowiednich
+                kandydatów na wiele stanowisk, ponieważ spada jej atrakcyjność i
+                konkurencyjność wobec sektora prywatnego. Zmiana, by była
+                skuteczna, musi być kompleksowa, stąd niniejszy postulat ma
+                charakter pakietowy. Po pierwsze, należy zwiększyć wynagrodzenia
+                osób z unikalnymi umiejętnościami kosztem dodatków stażowych,
+                które nie mają wystarczającego uzasadnienia. Po drugie, należy
+                wprowadzić automatyczną, coroczną waloryzację wynagrodzeń, aby
+                zabezpieczyć trwałość relatywnej konkurencyjności wobec sektora
+                prywatnego. Po trzecie, powyższym zmianom powinno towarzyszyć
+                ułatwienie zwolnienia urzędnika, co przy obecnie obowiązujących
+                przepisach jest bardzo trudne. O wyzwaniach pracy w
+                administracji pisał Krzysztof Chmieliński w opracowaniu
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/publikacje/pracowac-po-republikansku-marzenie-o-panstwie-jako-dobrym-pracodawcy/"
+                  >“Pracować po republikańsku. Marzenie o państwie jako dobrym
+                  pracodawcy”.</a
+                >
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q3" id="q3-a1" />
+                <label for="q3-a1">tak</label>
+                <input class="input-false" type="radio" name="q3" id="q3-a2" />
+                <label for="q3-a2">nie</label>
+              </div>
             </div>
-            <button type="submit">sprawdź</button>
-        </form>
-        <div class="score-wrapper">
-            <p class="score score-1">Republikanie 0%</p>
-            <p class="score score-2">Socjaldemokraci 0%</p>
-            <p class="score score-3">Liberałowie 0%</p>
+            <div class="question-box next">
+              <h3>
+                Zwiększenie wydatków na szkolnictwo wyższe i naukę do 2% PKB.
+              </h3>
+              <p>
+                Obecnie Polska wydaje 1,1% PKB na szkolnictwo wyższe, co na tle
+                innych państw rozwiniętych jest niską liczbą. Konsekwencją jest
+                utrzymywanie niskiej jakości nauki i dydaktyki. Większe środki
+                powinny zostać przeznaczone przede wszystkim na zwiększenie
+                budżetu Narodowego Centrum Nauki. Obecne finansowanie pozwala
+                bowiem na pokrycie jedynie 15% wniosków o badania, co zniechęca
+                do ich podejmowania. Ponadto należy dofinansować uczelnie, w tym
+                głównie podnieść wynagrodzenia kadry akademickiej. Obecnie ich
+                poziom jest radykalnie niekonkurencyjny wobec ofert z sektora
+                prywatnego, co powoduje negatywną selekcję kadry naukowej oraz
+                obniżenie jakości badań z powodu konieczności łączenia pracy na
+                uczelni z innymi aktywnościami pozwalającymi uzupełnić dochody.
+                Utrzymanie obecnego poziomu wydatków na naukę grozi także
+                zmniejszeniem atrakcyjności inwestycyjnej Polski, szczególnie w
+                sektorach wiedzochłonnych. O postępującej pauperyzacji polskich
+                uniwersytetów mówił w podcaście
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=pnJSkWZMJz0"
+                  >“Szanowne Państwo” Stanisław Mazur.</a
+                >
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q4" id="q4-a1" />
+                <label for="q4-a1">tak</label>
+                <input class="input-false" type="radio" name="q4" id="q4-a2" />
+                <label for="q4-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>Przeniesienie części urzędów poza Warszawę.</h3>
+              <p>
+                Celem jest instytucjonalne wzmocnienie miast średnich tracących
+                funkcje społeczno-gospodarcze i przełamanie
+                „warszawocentryczności” polskich instytucji publicznych. Nie
+                przesądzamy, które konkretnie instytucje powinny zostać
+                przeniesione, jako że wymaga to analizy pod kątem kryteriów
+                efektywności, uwzględniającej ryzyko zaburzenia pracy urzędów.
+                Postulat zakłada ponadto, że siedziby nowo tworzonych instytucji
+                powinny być domyślnie ustanawiane poza Warszawą. O potrzebie
+                delokalizowania urzędów pisaliśmy w naszych opracowaniach, m.in.
+                w raporcie
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/publikacje/deglomeracja-czy-degradacja-potencjal-rozwoju-srednich-miast-w-polsce/"
+                  >“Deglomeracja czy degradacja? Potencjał rozwoju średnich
+                  miast w Polsce</a
+                >
+                autorstwa Łukasza Zaborowskiego.
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q5" id="q5-a1" />
+                <label for="q5-a1">tak</label>
+                <input class="input-false" type="radio" name="q5" id="q5-a2" />
+                <label for="q5-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>Zwiększenie praw opozycji w Sejmie.</h3>
+              <p>
+                Postulat zakłada przywrócenie dobrych obyczajów parlamentarnych
+                i skuteczniejszą kontrolę opozycji nad działalnością rządu, co
+                powinno wytworzyć presję na podnoszenie standardów rządzenia. W
+                pakiecie nowych praw opozycja powinna mieć m.in. możliwość
+                regularnego i nielimitowanego „przepytywania rządu” na wzór
+                brytyjski. Wskazane jest też zagwarantowanie klubom i kołom
+                opozycji prawa do wprowadzania własnych punktów do porządku
+                obrad – po jednym dla każdego klubu i koła. W składach komisji
+                sejmowych i senackich, a zwłaszcza we władzach tych komisji,
+                zachowane powinny być w sposób konsekwentny proporcje
+                odpowiadające liczebności poszczególnych klubów i kół, a także
+                gwarantujące realną kontrolę parlamentu nad rządem. Rozwiązania
+                te przedstawiliśmy w ramach
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/petycje/podpisz-pakt-demokratyczny-oczekujemy-naprawy-parlamentaryzmu-a-nie-wojny-sejmu-z-senatem/"
+                  >Paktu demokratycznego</a
+                >
+                w naszym
+                <a
+                  href="https://klubjagiellonski.pl/2019/10/23/co-dalej-z-sejmem-i-senatem-proponujemy-pakt-demokratyczny/"
+                  target="_blank"
+                  >politycznym happeningu, podczas którego zebraliśmy ponad
+                  tysiąc podpisów.</a
+                >
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q6" id="q6-a1" />
+                <label for="q6-a1">tak</label>
+                <input class="input-false" type="radio" name="q6" id="q6-a2" />
+                <label for="q6-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>Wprowadzenie sądów pokoju.</h3>
+              <p>
+                Postulat zakłada powołanie do istnienia sieci bardzo małych
+                sądów do rozpoznawania drobnych spraw cywilnych i karnych. Tego
+                rodzaju „mikrosądy” istnieją w wielu krajach i zgodnie z
+                tradycją anglosaską, z której się wywodzą, określane są jako
+                sądy pokoju. Istniały one również w Polsce, i to od czasów
+                Księstwa Warszawskiego aż do lat międzywojennych, a ich
+                przywrócenie może być remedium na przeciążenie sądów
+                powszechnych sprawami bagatelnymi. Sędziowie pokoju powinni być
+                wyłaniani w wyborach lokalnych, jako że muszą czuć się związani
+                z lokalną społecznością i być przed nią odpowiedzialni. Wybory
+                byłyby mechanizmem obywatelskiej kontroli nad sędziami i
+                sposobem na rozluźnienie ich środowiskowej hermetyczności. O
+                idei sądów pokoju pisał dla nas Jacek Sokołowski w raporcie
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/wp-content/uploads/2018/06/raport-5-2017.pdf"
+                  >“Równowaga i rewolucja. Założenia kompleksowej reformy
+                  wymiaru sprawiedliwości”.</a
+                >
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q7" id="q7-a1" />
+                <label for="q7-a1">tak</label>
+                <input class="input-false" type="radio" name="q7" id="q7-a2" />
+                <label for="q7-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>Dofinansowanie i popularyzacja punktów dziennej opieki.</h3>
+              <p>
+                Obok żłobka i klubu dziecięcego dzienny opiekun jest jedną z
+                przewidzianych w polskim prawie form instytucjonalnej opieki nad
+                dziećmi, jednak w bardzo niewielkim stopniu wykorzystywaną.
+                Liczne zalety instytucji opiekuna dziennego – przede wszystkim
+                sprawowanie opieki w środowisku domowym bądź doń zbliżonym,
+                ograniczona liczba dzieci umożliwiająca zindywidualizowany
+                kontakt – skłaniają do spopularyzowania i dofinansowania tego
+                niszowego obecnie rozwiązania. Dzięki możliwości wykorzystania
+                prywatnych mieszkań i domów, bez konieczności drogich
+                inwestycji, PDO jest szczególnie atrakcyjnym rozwiązaniem na
+                obszarach wiejskich, gdzie z powodu małej liczby dzieci
+                samorządy nie decydowały się na budowę infrastruktury żłobkowej
+                i tym samym nie dawały możliwości instytucjonalnej opieki nad
+                dziećmi młodym rodzicom. O instytucji PDO pisaliśmy w raporcie
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/wp-content/uploads/2018/06/raport-5-2017.pdf"
+                  >“Alternatywa dla żłobka. System opieki nad dziećmi do lat 3 w
+                  Polsce”.</a
+                >
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q8" id="q8-a1" />
+                <label for="q8-a1">tak</label>
+                <input class="input-false" type="radio" name="q8" id="q8-a2" />
+                <label for="q8-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>Likwidacja parytetów na listach wyborczych.</h3>
+              <p>
+                Obowiązujący obecnie system kwotowy zakłada, iż na listach
+                wyborczych do Sejmu oraz do rad gmin liczących ponad 20 tysięcy
+                mieszkańców udział kandydatek i kandydatów nie może stanowić
+                mniej niż 35%. Jest to przejaw inżynierii społecznej nadmiernie
+                ograniczającej wolność podmiotów politycznych. Ponadto
+                konsekwencje rozwiązania są odwrotne od zamierzonych, ponieważ
+                de facto uprzedmiatawia, a nie upodmiatawia kobiety, jako że ich
+                obecność na listach jest postrzegana przez pryzmat konieczności
+                spełnienia wymogu parytetu, a nie realnych kompetencji, nawet
+                jeśli takowe posiadają. Postulat zakłada ponadto diagnozę, iż w
+                polskiej polityce kobiecie nie jest trudniej zrobić karierę
+                polityczną niż mężczyźnie, a nierównowaga liczbowa na korzyść
+                mężczyzn wynika nie z dyskryminacji kobiet, ale zjawisk
+                kulturowych, które nie wymagają odgórnej ingerencji. O tym,
+                dlaczego parytety są złym pomysłem, pisała na naszym portalu
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/2016/03/08/brak-kryterium-plciowego-wlasnie-rownosc/"
+                  >Anna Szczerbata.</a
+                >
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q9" id="q9-a1" />
+                <label for="q9-a1">tak</label>
+                <input class="input-false" type="radio" name="q9" id="q9-a2" />
+                <label for="q9-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>Bezzwłoczne zamknięcie trwale nierentownych kopalń węgla.</h3>
+              <p>
+                Nie ma żadnego uzasadnienia dla utrzymywania w Polsce trwale
+                nierentownych kopalń węgla. Wydłużanie ich pracy obciąża
+                finansowo przedsiębiorstwa z udziałem Skarbu Państwa. Górnictwo
+                węgla powinno przejść proces audytu kosztów funkcjonowania
+                kopalni oraz ekonomicznie dostępnych złóż węgla. Efektem audytu
+                powinien być podział kopalni na: 1) rentowne, które należy
+                utrzymać jak najdłużej; 2) nierentowne, ale zdolne do odzyskania
+                rentowności po dokonaniu wymaganych inwestycji; 3) trwale
+                nierentowne, które należy zamknąć bez zbędnej zwłoki. Aby
+                uratować jak największą liczbę kopalni, należy przeprowadzić
+                restrukturyzację i poddać cały sektor zasadom rachunku
+                ekonomicznego, aby nie stanowił obciążenia dla finansów
+                publicznych. Postulat ten rozwijał Paweł Musiałek w raporcie
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/wp-content/uploads/2021/04/raport-zielony-konserwatyzm-online-1.pdf"
+                  >“Zielony konserwatyzm”.</a
+                >
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q10" id="q10-a1" />
+                <label for="q10-a1">tak</label>
+                <input
+                  class="input-false"
+                  type="radio"
+                  name="q10"
+                  id="q10-a2"
+                />
+                <label for="q10-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>Zrównanie renty socjalnej z minimalnym wynagrodzeniem.</h3>
+              <p>
+                Podniesienie renty socjalnej dla osób niepełnosprawnych do
+                poziomu minimalnego wynagrodzenia, wynoszącego obecnie 3.490 zł
+                brutto, jest zasadne, ponieważ obecna kwota renty, wynosząca
+                1.588,44 zł, nie pozwala na godne życie osobom, które nie są w
+                stanie podjąć pracy zarobkowej, a często mają problemy z
+                samodzielną egzystencją. Postulat odwołuje się do solidarności
+                społecznej – dotyczy osób najbardziej potrzebujących wsparcia i
+                pozbawionych możliwości zmiany własnej sytuacji życiowej.
+                Zrównanie renty socjalnej z minimalnym wynagrodzeniem byłoby
+                także zasadne ze względu na obowiązujący zakaz łączenia pracy z
+                pobieraniem świadczenia pielęgnacyjnego przez opiekunów osób
+                niepełnosprawnych dorosłych. Postulat dotyczy grupy prawie 300
+                tysięcy osób. O konieczności wsparcia osób z niepełnosprawnością
+                pisał dla nas
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/2020/02/03/niekonstytucyjnie-i-niesprawiedliwie-jak-polskie-panstwo-dyskryminuje-opiekunow-osob-niepelnosprawnych/"
+                  >Rafał Bakalarczyk.</a
+                >
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q11" id="q11-a1" />
+                <label for="q11-a1">tak</label>
+                <input
+                  class="input-false"
+                  type="radio"
+                  name="q11"
+                  id="q11-a2"
+                />
+                <label for="q11-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>
+                Demokratyzacja wpływu partii politycznych na media publiczne.
+              </h3>
+              <p>
+                Aby ograniczyć patologię przejmowania pełnej kontroli nad
+                mediami publicznymi przez koalicję rządową, należy zwiększyć
+                liczbę członków Rady Mediów Narodowych, tak by każda partia
+                przekraczająca w wyborach do Sejmu 5% poparcia miała w niej
+                swoją reprezentację. Poza tym należy zwiększyć wymagany próg
+                podejmowania decyzji w RMN do ⅔ składu, by do wyboru zarządów
+                mediów konieczna było zgoda również części partii opozycyjnych.
+                Taki wymóg zwiększyłby legitymizację decyzji, wymusił w Radzie
+                współpracę i powstrzymywał najbardziej patologiczne wybory
+                personalne. Ponadto RMN powinna mieć prawo do ingerencji w
+                bieżącą pracę mediów publicznych, ale tylko przy zachowaniu
+                warunku poparcia decyzji ⅔ składu Rady.
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q12" id="q12-a1" />
+                <label for="q12-a1">tak</label>
+                <input
+                  class="input-false"
+                  type="radio"
+                  name="q12"
+                  id="q12-a2"
+                />
+                <label for="q12-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>
+                Wprowadzenie obowiązku odpracowania w Polsce bezpłatnych
+                studiów.
+              </h3>
+              <p>
+                Skoro uzasadnieniem dla pokrywania przez budżet państwa studiów
+                stacjonarnych jest zamiar wykształcenia osób, które następnie
+                stworzą wartość dodaną dla polskiego społeczeństwa i gospodarki,
+                to należy przyjąć, że taka umowa społeczna jest realizowana
+                tylko przez osoby, które chociaż przez pewien okres po studiach
+                pracują w Polsce. Wobec faktu, iż obecnie bezpośrednio po
+                studiach część absolwentów wyjeżdża za granicę – często takich,
+                których studia w Polsce (np. medyczne) były kosztowne – zasadne
+                jest wprowadzenie obowiązku zapłaty za studia poprzez pokrycie
+                ich kosztów podatkiem dochodowym odprowadzonym w Polsce. Osoby
+                kontynuujące w Polsce karierę zawodową de facto w kilka lat
+                odprowadzą kwotę odpowiadającą kosztowi studiów. Osoby
+                przenoszące się za pracą za granicę powinny natomiast zostać
+                objęte obowiązkiem spłaty zaciągniętego kredytu. Takie
+                rozwiązanie powinno częściowo zniechęcić do emigracji
+                zarobkowej.
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q13" id="q13-a1" />
+                <label for="q13-a1">tak</label>
+                <input
+                  class="input-false"
+                  type="radio"
+                  name="q13"
+                  id="q13-a2"
+                />
+                <label for="q13-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>
+                Deregulacja Kodeksu pracy i wzmocnienie Państwowej Inspekcji
+                Pracy.
+              </h3>
+              <p>
+                Obecnie obowiązujący Kodeks pracy, uchwalony w 1974 r., jest
+                niedostosowany do realiów współczesnego rynku pracy. Ponadto
+                jest przeregulowany i zawiera martwe przepisy, w efekcie
+                przesadnie obciążając przedsiębiorców. Potwierdza to sporządzany
+                przez Forum Odpowiedzialnego Rozwoju
+                <a
+                  target="_blank"
+                  href="https://for.org.pl/pl/a/7464,komunikat-1/2020-indeks-elastycznosci-zatrudnienia-2020-jeden-rozmiar-nie-jest-dla-wszystkich"
+                  >Indeks Elastyczności Zatrudnienia,</a
+                >
+                w którym za 2020 r. Polska zajęła 27. miejsce na 41 badanych
+                państw UE i OECD. Z kolei instytucjonalna słabość Państwowej
+                Inspekcji Pracy sprawia, że wiele podstawowych praw
+                pracowniczych nie jest respektowanych. Dlatego w parze ze
+                wzmocnieniem PIP powinna iść deregulacja Kodeksu pracy, w tym
+                zwiększenie elastyczności czasu pracy i mniej restrykcyjne
+                regulacje dotyczące zatrudnienia. Postulat proponuje więc
+                zmniejszenie liczby obowiązków zatrudniających przy ich
+                jednoczesnym poważnym egzekwowaniu zamiast dotychczasowego
+                szerokiego zakresu nieegzekwowanych praw. O potrzebie
+                deregulacji Kodeksu pracy oraz wzmocnieniu PIP pisał dla nas
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/2021/11/04/jedna-kontrola-srednio-na-15-lat-i-16-tys-inspektorow-w-36-milionowym-kraju-zapasc-panstwowej-inspekcji-pracy/"
+                  >Janusz Ruciński.</a
+                >
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q14" id="q14-a1" />
+                <label for="q14-a1">tak</label>
+                <input
+                  class="input-false"
+                  type="radio"
+                  name="q14"
+                  id="q14-a2"
+                />
+                <label for="q14-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>Ograniczenie stosowania tymczasowego aresztowania.</h3>
+              <p>
+                Tymczasowe aresztowanie, najsurowszy spośród środków
+                zapobiegawczych, jest w Polsce zdecydowanie nadużywane, a wyroki
+                Europejskiego Trybunału Praw Człowieka dowodzą, że problem
+                nierespektowania zasady domniemania niewinności ma w naszym
+                kraju charakter systemowy. Średni czas stosowania tymczasowego
+                aresztowania w Polsce (9 miesięcy) należy do najdłuższych w Unii
+                Europejskiej. Sędziowie statystycznie akceptują 90% wniosków o
+                tymczasowe aresztowanie i 95% o jego przedłużenie, co dowodzi,
+                że polskie sądy podchodzą w sposób bezkrytyczny do tempa
+                prowadzenia czynności przez organy ścigania, przedkładając
+                domniemane dobro śledztwa nad wolność osobistą i traktując
+                tymczasowe aresztowanie jako opcję domyślną, a nie ostateczną.
+                Dlatego zasadne jest skrócenie maksymalnej długości tymczasowego
+                aresztowania, o które może jednorazowo wnioskować prokurator, co
+                pozwoli na częstszą weryfikację istnienia podstaw dla stosowania
+                i przedłużania tymczasowego aresztowania. Należy także
+                rozpowszechnić alternatywne wobec tymczasowego aresztowania
+                rozwiązania, jak dozór elektroniczny czy domyślne orzekanie
+                poręczenia majątkowego.
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q15" id="q15-a1" />
+                <label for="q15-a1">tak</label>
+                <input
+                  class="input-false"
+                  type="radio"
+                  name="q15"
+                  id="q15-a2"
+                />
+                <label for="q15-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>Rozszerzenie zakazu reklamy alkoholu.</h3>
+              <p>
+                Art. 13 ustawy o wychowaniu w trzeźwości zakazuje reklamy
+                alkoholu, ale nie dotyczy to piwa. Jest to norma
+                niekonsekwentna, zwłaszcza wziąwszy pod uwagę, że część osób
+                pijących alkohol nałogowo bądź ryzykownie konsumuje go również w
+                postaci alkoholi lekkich. Ponadto należy doprecyzować przepisy
+                ustawy w sposób, który rozwieje wątpliwości, czy publiczna
+                promocja alkoholu obejmuje również media społecznościowe.
+                Postulat wynika z faktu częstego reklamowania alkoholu w mediach
+                społecznościowych przez tzw. influencerów, którzy tą drogą
+                omijają postanowienia ustawy. Rozszerzenie zakazu reklamy ma na
+                celu przeciwdziałanie problemowi alkoholizmu. O katolickim
+                podejściu do alkoholu na portalu mówił brat
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/2022/09/13/piwo-w-jednej-rece-wino-w-drugiej-kultura-picia-w-polsce-to-latwa-droga-do-alkoholizmu/"
+                  >Damian Napiwodzki.</a
+                >
+                Zorganizowaliśmy także na ten temat
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/2022/08/23/drozsza-wodka-mniej-monopolowych-polityka-alkoholowa-w-polsce-spiewak-jakubiak/"
+                  >debaty.</a
+                >
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q16" id="q16-a1" />
+                <label for="q16-a1">tak</label>
+                <input
+                  class="input-false"
+                  type="radio"
+                  name="q16"
+                  id="q16-a2"
+                />
+                <label for="q16-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>Zakaz używania smartfonów w szkołach.</h3>
+              <p>
+                Mając na uwadze problemy uczniów z koncentracją na lekcjach,
+                uzależnienie od Internetu, konsekwencje dla rozwoju dziecka oraz
+                negatywny wpływ na relacje społeczne, wzorem innych państw
+                europejskich należy w Polsce wprowadzić zakaz używania telefonów
+                komórkowych, tabletów i smartwatchów w szkołach podstawowych i
+                ponadpodstawowych. Zakaz powinien obejmować korzystanie z
+                urządzeń zarówno podczas lekcji, jak i przerw, tak aby
+                stymulować uczniów do pogłębiania relacji offline. Telefon
+                powinien być przy wejściu do szkoły deponowany w skrytce i
+                odbierany przy wyjściu, a możliwość korzystania z niego w szkole
+                powinna zostać ograniczona tylko do uzasadnionych przypadków. O
+                problemie smartfonów w szkołach pisali dla nas
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/2022/03/16/homo-smartphonus-idzie-do-pracy-czy-kapitalizm-dostosuje-sie-do-pokolenia-instagrama/"
+                  >Adam Zych</a
+                >
+                i
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/2022/09/01/smartfonoza-upadek-rodziny-stres-dzieci-w-kryzysie-psychicznym-znow-ida-do-szkoly/"
+                  >Anna Byrska.</a
+                >
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q17" id="q17-a1" />
+                <label for="q17-a1">tak</label>
+                <input
+                  class="input-false"
+                  type="radio"
+                  name="q17"
+                  id="q17-a2"
+                />
+                <label for="q17-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>Dotowanie cen energii tylko dla najuboższych.</h3>
+              <p>
+                Z wyliczeń Ministerstwa Aktywów Państwowych wynika, że w 2023 r.
+                zamrożenie cen jedynie energii elektrycznej będzie kosztować 43
+                mld zł. Wydłużenie wsparcia na kolejne lata byłoby więc
+                działaniem bardzo kosztownym dla budżetu państwa. Dotowanie
+                rachunków za energię elektryczną, gaz, ciepło powinno być więc
+                ograniczone tylko do najuboższych. Zaoszczędzone środki należy
+                przeznaczyć na termomodernizację domów i budynków mieszkalnych,
+                co z racji ogromnych potrzeb jest bardzo kosztowne – nawet 70%
+                polskich domów (ok. 3,8 mln) może wymagać ocieplenia.
+                Ograniczenie wsparcia do najuboższych wytworzy też presję na
+                wzrost oszczędności energii, co jest niezbędne dla obniżenia
+                emisji dwutlenku węgla. Należy zastrzec, że obiekty zabytkowe
+                powinny być całkowicie wyłączone z termomodernizacji i objęte
+                preferencyjnymi cenami energii. Dzięki temu status zabytku z
+                niechcianego problemu może stać się wreszcie atrakcją, co
+                pozwoli uratować wiele cennych dla naszej kultury obiektów.
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q18" id="q18-a1" />
+                <label for="q18-a1">tak</label>
+                <input
+                  class="input-false"
+                  type="radio"
+                  name="q18"
+                  id="q18-a2"
+                />
+                <label for="q18-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>
+                Podwyższenie wieku emerytalnego i zniesienie opodatkowania pracy
+                w okresie przedemerytalnym.
+              </h3>
+              <p>
+                Wobec kryzysu demograficznego oraz nieuchronności obciążenia
+                przyszłych pracujących kosztami utrzymywania coraz większej
+                liczby emerytów , a także mając na uwadze bardzo niski na tle
+                unijnej średniej wiek przejścia na emeryturę, postuluje się
+                stopniowe podnoszeniu wieku emerytalnego tak, aby docelowo
+                wyniósł on 67 lat, a następnie był aktualizowany zgodnie ze
+                zmianą prognoz długości życia Polaków. Powinien być on także
+                wyrównany, ponieważ nie ma uzasadnienia dla zróżnicowania wieku
+                emerytalnego mężczyzn i kobiet. W ten sposób wzrosną emerytury,
+                które bez podwyższenia wieku emerytalnego będą rażąco niskie ze
+                względu na prognozowaną niską stopę zastąpienia. Aby
+                zrekompensować dłuższą pracę, należy ją także uatrakcyjnić,
+                znosząc podatek dochodowy w okresie przedemerytalnym dla tej
+                kategorii osób, które zostaną objęte dłuższym okresem pracy.
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q19" id="q19-a1" />
+                <label for="q19-a1">tak</label>
+                <input
+                  class="input-false"
+                  type="radio"
+                  name="q19"
+                  id="q19-a2"
+                />
+                <label for="q19-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>Odpartyjnienie Senatu.</h3>
+              <p>
+                Sposób wyboru senatorów czyni tę instytucję bardzo podobną w
+                swojej politycznej roli do Sejmu. Potrzebna jest reforma, która
+                silniej zróżnicuje obie izby parlamentu, a przede wszystkim
+                ograniczy wpływ wyników wyborów parlamentarnych na prace Senatu,
+                nadając mu rolę, którą powinien mieć od początku: ciała
+                uszlachetniającego demokrację i ograniczającego partyjność.
+                Postulat nie przesądza precyzyjnej metody wyboru senatorów –
+                wskazuje na pożądany kierunek zmian, które można zrealizować na
+                różne sposoby. Jednym z nich jest zagwarantowanie w Senacie
+                mandatów byłym prezydentom, premierom, prezesom najważniejszych
+                sądów i szefów innych kluczowych instytucji konstytucyjnych,
+                którzy dzięki doświadczeniu podnosiliby merytoryczny poziom
+                pracy Senatu. O potrzebie reformy Senatu pisał dla nas
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/2018/09/02/wyjscie-z-wojny-polsko-polskiej-prowadzi-przez-reforme-senatu/"
+                  >Michał Rzeczycki.</a
+                >
+                Przeprowadzaliśmy także na ten temat
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/2018/09/19/czy-senat-jest-potrzebny-piwo-jagiellonskie-warszawa/"
+                  >debaty.</a
+                >
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q20" id="q20-a1" />
+                <label for="q20-a1">tak</label>
+                <input
+                  class="input-false"
+                  type="radio"
+                  name="q20"
+                  id="q20-a2"
+                />
+                <label for="q20-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>Zwiększenie podatków dla najlepiej zarabiających.</h3>
+              <p>
+                W polskim systemie podatkowym osoby zamożniejsze odprowadzają na
+                rzecz państwa mniejszą część swoich dochodów niż osoby uboższe.
+                Uzasadnione jest więc zwiększenie progresji opodatkowania pracy.
+                Aby zwiększenie progresji było realne, należy zaradzić
+                problemowi fikcyjnych działalności gospodarczych działających w
+                modelu business-to-business (B2B). Najlepszym rozwiązaniem jest
+                likwidacja źródeł istnienia arbitrażu poprzez wyeliminowanie
+                zróżnicowania oskładkowania i opodatkowania identycznych
+                rodzajów dochodów dzięki wprowadzeniu jednolitej daniny
+                obejmującej jedną płatnością podatek dochodowy oraz składki
+                zdrowotne i społeczne. O problemie wadliwej struktury polskiego
+                systemu podatkowego, który w zbyt dużym stopniu obciąża najmniej
+                zarabiających, pisał Radosław Piekarz w raporcie
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/wp-content/uploads/2020/01/podatkowy-labirynt-xxx-online.pdf"
+                  >Podatkowy labirynt.</a
+                >
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q21" id="q21-a1" />
+                <label for="q21-a1">tak</label>
+                <input
+                  class="input-false"
+                  type="radio"
+                  name="q21"
+                  id="q21-a2"
+                />
+                <label for="q21-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>Likwidacja powiatów.</h3>
+              <p>
+                Potrzeba istnienia pośrednich jednostek samorządu terytorialnego
+                w kraju o relatywnie sprawnie funkcjonujących gminach i
+                województwach, wyposażonych w narzędzia stymulujące politykę
+                rozwoju społeczno-gospodarczego, jest powszechnie kwestionowana.
+                Powiatom powierzono wykonywanie zadań publicznych, które z
+                powodzeniem mogłyby być realizowane przez szczebel gminny (np.
+                szkolnictwo ponadgimnazjalne) lub wojewódzki (np. lecznictwo
+                szpitalne). Likwidacja powiatów nie powinna doprowadzić do
+                zmniejszenia jakości usług publicznych czy wzrostu kosztów ich
+                świadczenia, gdyż administracja na szczeblu gminnym oraz
+                wojewódzkim jest w stanie zrealizować zadania publiczne
+                dotychczas powierzone powiatom bez znaczącego wzrostu
+                zatrudnienia i konieczności zakupu infrastruktury technicznej. O
+                problemie zbędności powiatów pisał na naszym portalu
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/2016/02/11/kto-sie-odwazy-zlikwidowac-powiaty/"
+                  >Mariusz Trojak.</a
+                >
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q22" id="q22-a1" />
+                <label for="q22-a1">tak</label>
+                <input
+                  class="input-false"
+                  type="radio"
+                  name="q22"
+                  id="q22-a2"
+                />
+                <label for="q22-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>Wprowadzenie dnia referendalnego.</h3>
+              <p>
+                Polski ustrój bardzo rzadko sięga do metod demokracji
+                bezpośredniej, w tym referendum, które jest dobrym narzędziem
+                upodmiotowienia obywateli. Dla spopularyzowania tego rozwiązania
+                zasadne jest przyjęcie przepisów zakładających, że referenda
+                odbywają się raz do roku, w tym samym dniu: bądź równocześnie z
+                ogólnokrajowymi wyborami (parlamentarnymi, prezydenckimi,
+                samorządowymi, europarlamentarnymi), bądź w określonej dacie
+                dziennej, na przykład 11 listopada. Wówczas powinny odbywać się
+                zarówno głosowania ogólnopolskie, jak i merytoryczne oraz
+                odwoławcze głosowania lokalne. Sama kumulacja spraw i włączenie
+                w kampanię profrekwencyjną różnych grup
+                inicjatorów-interesariuszy powinny wpłynąć pozytywnie na
+                uczestnictwo Polaków w referendach i reprezentatywność
+                uczestników takiego głosowania. O pomyśle dnia referendalnego
+                pisali na naszych łamach
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/2015/09/05/jak-upodmiotowic-obywateli-propozycja-dnia-referendalnego/"
+                  >Piotr Kaszczyszyn</a
+                >
+                i
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/2017/06/01/referendum-w-pulapce-populizmu/"
+                  >Piotr Trudnowski.</a
+                >
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q23" id="q23-a1" />
+                <label for="q23-a1">tak</label>
+                <input
+                  class="input-false"
+                  type="radio"
+                  name="q23"
+                  id="q23-a2"
+                />
+                <label for="q23-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>Wprowadzenie podatku katastralnego od drugiego lokalu.</h3>
+              <p>
+                Postulat zakłada wprowadzenie podatku odnoszonego do wartości
+                rynkowej nieruchomości zamiast jej powierzchni, jak obecnie.
+                Istotna część oszczędności Polaków jest lokowana spekulacyjnie w
+                działki czy nieruchomości budowlane, co podnosi ceny
+                nieruchomości gruntowych i ogranicza ich dostępność m.in. dla
+                młodych małżeństw. Z dochodów z podatku będzie można sfinansować
+                budowę mieszkań na wynajem, a zmiana będzie także stanowiła
+                impuls do zagospodarowania pustostanów, co zwiększy podaż lokali
+                mieszkaniowych. O potrzebie przeniesienia ciężaru w strukturze
+                systemu podatkowego z podatków konsumpcyjnych (obciążających
+                mniej zamożnych) na podatki majątkowe (obciążające bardziej
+                zamożnych) pisał Radosław Piekarz w raporcie
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/wp-content/uploads/2020/01/podatkowy-labirynt-xxx-online.pdf"
+                  >Podatkowy labirynt.</a
+                >
+                O zasadności zaangażowania państwa w budowę mieszkań na wynajem
+                pisaliśmy w raporcie
+                <a
+                  target="_blank"
+                  href="https://klubjagiellonski.pl/publikacje/lokalna-alternatywa-jak-wybudowac-w-polsce-brakujace-mieszkania/"
+                  >“Lokalna alternatywa. Jak wybudować w Polsce brakujące
+                  mieszkania?”.</a
+                >
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q24" id="q24-a1" />
+                <label for="q24-a1">tak</label>
+                <input
+                  class="input-false"
+                  type="radio"
+                  name="q24"
+                  id="q24-a2"
+                />
+                <label for="q24-a2">nie</label>
+              </div>
+            </div>
+            <div class="question-box next">
+              <h3>Zmiana roli prezydenta.</h3>
+              <p>
+                Wadą polskiego ustroju jest wyposażenie prezydenta w kompetencje
+                umożliwiające ingerencję w politykę prowadzoną przez rząd.
+                Dlatego zasadne jest pozbawienie prezydenta prawa weta wobec
+                ustaw uchwalonych przez parlament, a także ograniczenie roli w
+                polityce zagranicznej i bezpieczeństwa do służebnej, a nie
+                równoległej wobec rządu. Silny mandat, którym dysponuje
+                wyłaniany w wyborach powszechnych prezydent, można wykorzystać w
+                pełnieniu przezeń roli organu podejmującego kluczowe decyzje
+                dotyczące nominacji sędziów oraz stojącego na straży ich
+                niezawisłości. Prezydent powinien uzyskać uprawnienie do wyboru
+                kandydata spośród kilku przedstawionych przez Krajową Radę
+                Sądownictwa na każdy wakat. Pozwoliłoby to ograniczyć wpływ
+                czynnika partyjnego na sądownictwo bez przywrócenia systemu
+                korporacyjnego, w którym środowisko sędziowskie decyduje samo o
+                sobie bez żadnego realnego mechanizmu kontrolnego.
+              </p>
+              <div class="answer-wrapper">
+                <input class="input-true" type="radio" name="q25" id="q25-a1" />
+                <label for="q25-a1">tak</label>
+                <input
+                  class="input-false"
+                  type="radio"
+                  name="q25"
+                  id="q25-a2"
+                />
+                <label for="q25-a2">nie</label>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="btns-wrapper">
+          <button type="button" class="prev-btn blue-btn" disabled>
+            poprzednie
+          </button>
+          <div class="btns-wrapper-next">
+            <button type="submit" class="submit-btn" disabled>sprawdź</button>
+            <button type="button" class="next-btn blue-btn" disabled>
+              następne
+            </button>
+          </div>
+        </div>
+      </form>
+      <div class="score-wrapper">
+        <div class="score-container">
+            <h3 class="score-text">w <span></span>% popierasz Klub Jagielloński</h3>
+            <button class="blue-btn restart-btn">Spróbuj jeszcze raz</button>
+        </div>
+      </div>
     </main>
-	<script src="index.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
