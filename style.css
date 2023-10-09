@@ -109,7 +109,7 @@ html{
     width: 100%;
     position: relative;
     counter-reset: css-counters 0;
-    width: 2500vw;
+    width: 2100vw;
     display: flex;
     transition: all 0.3s ease-in-out;
 }
@@ -205,8 +205,9 @@ html{
 }
 
 .score-text{
-    text-align: center;
     font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 .score-wrapper.active{
